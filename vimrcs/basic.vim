@@ -138,6 +138,10 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
+if $TERM == 'xterm'
+    set t_Co=256
+endif
+
 try
     colorscheme desert
 catch
